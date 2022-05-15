@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Greeting from "./src/components/Greeting";
 import LoginForm from "./src/components/LoginForm";
@@ -8,9 +8,10 @@ export default function App() {
     <View style={styles.container}>
       <Text>Hello World! 👋 🌎</Text>
       <LoginForm />
-      <Greeting name="Pedro" />
-      <Greeting name="Luis" />
-      <Greeting name="Maria" />
+      <Greeting firstname="Pedro" lastname="Capriles" />
+      <Greeting firstname="Luis" lastname="Perez" />
+      <Greeting firstname="Maria" lastname="Rojas" />
+      <Greeting />
     </View>
   );
 }
